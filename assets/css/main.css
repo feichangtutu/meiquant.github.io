@@ -77,8 +77,21 @@
 	}
 
 	.container {
-		width: 60em;
+		width: 80em;
 	}
+
+	.wrapper.white {
+		background-color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wrapper.gray {
+		background-color: #f0f0f0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 
 	@media screen and (max-width: 1680px) {
 
@@ -101,7 +114,7 @@
 		}
 
 		.container {
-			width: 60em;
+			width: 80em;
 		}
 
 	}
@@ -3089,10 +3102,6 @@
 
 /* Main */
 
-	#main {
-		padding: 4em 0;
-	}
-
 		#main > header {
 			text-align: center;
 			margin: 0 0 3em 0;
@@ -3112,14 +3121,28 @@
 				padding: 1em 0 1.25em 0;
 			}
 
-	body.landing #main {
-		margin-top: 1em;
+	/*
+	products
+	 */
+
+	#products {
+
 	}
+
+	#products .title {
+		padding: 3em 0 0 0;
+		text-align: center;
+	}
+
+	#products h1 {
+		font-size: 3em;
+	}
+
 
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #000;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
@@ -3609,10 +3632,6 @@
 				}
 
 		/* Main */
-
-			#main {
-				padding: 4em 0 0 0;
-			}
 
 				#main > header {
 					margin: 0 2em 1.5em 2em;
