@@ -3170,8 +3170,14 @@
 
 		.products-row {
 			width: 80em;
-			height: 35em;
-			position: relative;
+			height: 38em;
+		}
+
+		.products-row > * {
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
 		}
 
 		.product {
@@ -3186,13 +3192,12 @@
 			background-repeat: repeat,							no-repeat;
 			background-size: auto,							cover;
 			color: #000;
-			padding: 4em 0 22em 6em;
+			padding: 4em 53em 22em 6em;
 			text-align: left;
 			margin: 4em 0 1em 0;
 		}
 
 		.product2 {
-			position: absolute;
 			width: 40em;
 			height: 32em;
 			background-color: #666;
@@ -3207,10 +3212,8 @@
 		}
 
 		.product3 {
-			position: absolute;
 			width: 39em;
 			height: 32em;
-			right: 0;
 			background-color: #666;
 			background-image: url("../../images/image03.jpg");
 			background-position: top left, center center;
@@ -3753,6 +3756,8 @@
 				padding: 0;
 				margin-top: 0;
 			}
+
+			.product2, .product3
 
 		/* Footer */
 
