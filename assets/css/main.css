@@ -3082,7 +3082,7 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 16em 0 16em 0;
 		text-align: center;
 		height: 45em;
 	}
@@ -3659,7 +3659,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 4em 0;
+				padding: 12em 0;
 			}
 
 				#banner h2 {
@@ -3797,7 +3797,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 1em 4em 1em;
+				padding: 16em 1em 12em 1em;
 			}
 
 		/* Main */
